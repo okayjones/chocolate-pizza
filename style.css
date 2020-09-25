@@ -1,0 +1,49 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.subtitle {
+    text-transform: uppercase;
+}
+
+nav {
+    border: solid;
+}
+
+
+.content p {
+    text-indent: 2em;
+}
+
+.pizza {
+    width: 100%;
+}
+
+.ingr {
+    background-image: url(assets/list-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    height:300px;
+}
+
+.ingr ul {
+    column-count: 2;
+    list-style-type: none;
+    padding: 2em 2em;
+    font-size: .75em;
+}
+
+.ingr li:before {
+    content: "\2610";
+}
+
+li.check:before {
+    content: "\2611"; 
+}
+
+.strike {
+    text-decoration: line-through;
+}
