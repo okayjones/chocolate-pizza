@@ -1,7 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 900px;
     margin: 25px auto;
-    box-sizing: border-box;
+}
+
+p {
+    font-size: 20px;
 }
 
 p, li {
@@ -14,7 +21,7 @@ li {
 }
 
 hr {
-    margin-top: 30px;
+    margin: 50px 0px;
 }
 
 .subtitle {
@@ -74,7 +81,6 @@ h1 {
 
 .post p {
     text-indent: 2em;
-    font-size: 20px;
 }
 
 .pizza {
@@ -94,6 +100,7 @@ h1 {
 .ingr ul {
     column-count: 2;
     list-style-type: none;
+    padding: 40px;
 }
 
 .ingr li:before {
@@ -106,4 +113,63 @@ li.check:before {
 
 .strike {
     text-decoration: line-through;
+}
+
+.about {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    margin-left: 10px;
+}
+
+.about p {
+    line-height: 1;
+}
+
+.name {
+    margin-top: 0;
+    color: black;
+    font-size: 1.5em;
+}
+
+.share {
+    float: right;
+    margin-top: 15px;
+}
+
+.share-button {
+    text-transform: uppercase;
+    background-color: orangered;
+    padding: 10px 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+/*Footer styles*/
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-line {
+    background-color: lightgray;
+    width: 427.5px;
+    height: 1px;
+    display: inline-block;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+.copyright {
+    margin-top: 25px;
+}
+
+.copyright p{
+    font-size: 14px;
+    margin: 0;
+    color: lightgray;
 }
