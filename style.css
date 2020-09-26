@@ -17,6 +17,11 @@ hr {
     margin-top: 30px;
 }
 
+.subtitle {
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 /* header styles */
 .title-container {
     display: inline-block;
@@ -30,14 +35,9 @@ hr {
     font-family: 'Yellowtail', cursive;
 }
 
-.subtitle {
-    text-transform: uppercase;
-    font-family: 'Open Sans Condensed', sans-serif;
-    letter-spacing: 1px;
-}
-
 .title-container .subtitle {
     font-size: 12px;
+    letter-spacing: 1px;
 }
 
 .links {
@@ -45,7 +45,7 @@ hr {
     margin-top: 10px;
 }
 
-.rss {
+.links img:nth-child(7) {
     margin-left: 8px;
 }
 
@@ -59,8 +59,22 @@ h1 {
     margin-bottom: 0px;
 }
 
-.content p {
+.subheading {
+    color: grey;
+    margin-bottom: 25px;
+}
+
+.print {
+    float: right;
+}
+
+.post-title {
+    line-height: .5;
+}
+
+.post p {
     text-indent: 2em;
+    font-size: 20px;
 }
 
 .pizza {
